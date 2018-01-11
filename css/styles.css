@@ -1,3 +1,7 @@
 #receipt {
   display: none;
 }
+
+.btn {
+  margin-bottom: 20px;
+}

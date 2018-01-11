@@ -64,10 +64,56 @@
             </div>
           </div>
         </div>
+
+        <h3>Customer Information</h3>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" placeholder="John Doe" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name">Address</label>
+              <input id="address" placeholder="123 Elm Street" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="name">City</label>
+              <input id="city" placeholder="Springfield" class="form-control" type="text">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2">
+              <div class="form-group">
+                <label for="name">State</label>
+                <input id="state" placeholder="NY" class="form-control" type="text">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="name">Zipcode</label>
+              <input id="zip" placeholder="12345" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
         <button type="submit" class="btn btn-danger">Submit Your Order</button>
       </form>
 
-      <form id="info-form">
+      <!-- <form id="info-form">
         <h3>Customer Information</h3>
 
         <div class="row">
@@ -114,7 +160,7 @@
           </div>
         </div>
 
-      </form>
+      </form> -->
 
       <div class="row">
         <div class="col-md-8">
@@ -130,18 +176,16 @@
             <address>
               <strong><span class="name"></span></strong><br>
               <span class="address"></span><br>
-              <span class="city"></span><br>
+              <span class="city"></span>, <span class="state"></span><br>
               <span class="zip"></span>
             </address>
 
             <h4>Order Details</h4>
 
             <ul>
-              <li><span class="shoe-size"></span></li>
-              <li><span class="shoe-quantity"></span></li>
-              <li><span class="nose-quantity"></span></li>
-              <li><span class="wig"></span></li>
-              <li><span class="wig-quantity"></span></li>
+              <li>shoe-size: <span class="shoe-size"></span>, quantity: <span class="shoe-quantity"></span></li>
+              <li>nose-quantity: <span class="nose-quantity"></span></li>
+              <li>wig color: <span class="wig"></span>, quantity: <span class="wig-quantity"></span></li>
             </ul>
 
 
